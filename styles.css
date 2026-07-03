@@ -1,8 +1,14 @@
 body {
    font-family: Arial, sans-serif;
-   background-color: #fbfae6;
+   background-color: white;
+   color: navy;
 }
 
 h1 {
-   color: #f6690b;
+   color: navy;
+}
+
+ul {
+   color:black;
+   list-style-type: square;
 }
