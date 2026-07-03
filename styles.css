@@ -5,10 +5,13 @@ body {
 }
 
 h1 {
-   color: navy;
+   color: #b30000;
 }
 
 ul {
-   color:black;
+   color:#0000ff;
    list-style-type: square;
+}
+ol {
+   color:black;
 }
