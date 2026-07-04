@@ -21,6 +21,12 @@ h2, h3 {
     margin-bottom: 10px;
 }
 
+span {
+    color: #b30000;
+    text-align: center;
+    text-shadow: 2px 2px 4px #00000055;
+}
+
 ul {
     color: #000099;
     list-style-type: square;
