@@ -57,17 +57,3 @@ a {
     color: #b30000;
     font-weight: bold;
 }
-
-a:hover {
-    color: #003366;
-    text-decoration: underline;
-}
-
-/* Image layout and sizing */
-img {
-    max-width: ;      /* scale down to the container width if needed */
-    height: auto;         /* preserve aspect ratio */
-    display: block;       /* remove the inline baseline gap */
-    margin: 1rem auto;    /* center and give consistent spacing */
-}
-
