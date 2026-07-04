@@ -34,6 +34,7 @@ ol {
 
 img {
     border: 10px solid #b30000;
+    height: auto;
 }
 
 table {
