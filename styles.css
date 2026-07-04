@@ -22,9 +22,13 @@ h2, h3 {
 }
 
 span {
+    display: block;
     color: #b30000;
     text-align: center;
     text-shadow: 2px 2px 4px #00000055;
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-top: -10px;
 }
 
 ul {
