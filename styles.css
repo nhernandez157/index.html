@@ -33,11 +33,7 @@ ol {
 }
 
 img {
-    display: block;
-    margin: 20px auto;
-    max-width: 400px;
-    border-radius: 10px;
-    border: 5px solid #b30000;
+    border: 10px solid #b30000;
 }
 
 table {
