@@ -33,8 +33,9 @@ ol {
 }
 
 img {
-    border: 10px solid #b30000;
+    max-width: 500px;
     height: auto;
+    border: 10px solid #b30000;
 }
 
 table {
