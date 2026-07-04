@@ -32,12 +32,6 @@ ol {
     line-height: 1.6;
 }
 
-img {
-    max-width: 500px;
-    height: auto;
-    border: 10px solid #b30000;
-}
-
 table {
     width: 90%;
     margin: 20px auto;
