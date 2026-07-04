@@ -65,19 +65,9 @@ a:hover {
 
 /* Image layout and sizing */
 img {
-    max-width: 100%;      /* scale down to the container width if needed */
+    max-width: ;      /* scale down to the container width if needed */
     height: auto;         /* preserve aspect ratio */
     display: block;       /* remove the inline baseline gap */
     margin: 1rem auto;    /* center and give consistent spacing */
 }
 
-/* Optional: different sizes for specific images */
-img.hero {
-    max-width: 900px;     /* large featured image */
-    margin: 1.5rem auto;
-}
-
-img.thumb {
-    max-width: 320px;     /* small photo or thumbnail */
-    margin: 0.75rem auto;
-}
