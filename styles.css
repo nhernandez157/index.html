@@ -11,7 +11,6 @@ body {
     line-height: 1.6;
 }
 
-/* Main container for content */
 .container {
     max-width: 1000px;
     margin: 0 auto;
@@ -49,7 +48,6 @@ span {
     margin-bottom: 20px;
 }
 
-/* List containers */
 ul {
     color: #000099;
     list-style-type: square;
@@ -65,12 +63,10 @@ ol {
     margin: 15px 0;
 }
 
-/* List item styling */
 li {
     margin-bottom: 8px;
 }
 
-/* Table styling */
 table {
     width: 90%;
     margin: 20px auto;
@@ -93,7 +89,6 @@ td {
     padding: 10px;
 }
 
-/* Link styling with hover states */
 a {
     color: #b30000;
     font-weight: bold;
@@ -117,7 +112,6 @@ a:active {
     color: #660000;
 }
 
-/* Card/section container */
 .card {
     background-color: #f9f9f9;
     border: 1px solid #e0e0e0;
@@ -127,7 +121,6 @@ a:active {
     border-radius: 4px;
 }
 
-/* Button styling (if needed) */
 button {
     background-color: #b30000;
     color: white;
@@ -148,7 +141,6 @@ button:focus {
     outline-offset: 2px;
 }
 
-/* Responsive design */
 @media (max-width: 768px) {
     .container {
         padding: 20px;
