@@ -3,22 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>Independence Day - America 250</title>
+    
+    <!-- Link to your CSS file -->
     <link rel="stylesheet" href="styles.css">
+    
+    <!-- Link to your JavaScript file -->
+    <script src="script.js" defer></script>
+    
 </head>
 <body>
     <div class="container">
+
+        <!-- Background color button -->
+        <button id="colorBtn">Change background color</button>
+        
         <h1><strong>250 Years of Independence</strong></h1>
-        <p>
-            <span>1776-2026</span>
-        </p>
+        <p><span>1776-2026</span></p>
         <img src="freedom.jpeg" alt="freedom">
+
+        <!-- Fun fact button + text -->
+        <button id="factBtn">Click for a fun fact</button>
+        <p id="factText"></p>
         
         <section class="card">
             <h2>Celebrating 250 Years of American Independence</h2>
-            
             <p>This year marks the <strong>250th Anniversary</strong> of the United States of America. The historic milestone is known as the <strong>Semiquincentennial</strong>.</p>
-                   
             <p>Here are the events where you and your family can enjoy a public fireworks display on Independence Day:</p>
             
             <ul>
@@ -85,7 +96,12 @@
             <h2>Happy 4th of July!</h2>
         </section>
 
-        <img src="fireworks.jpeg" alt="fireworks">
+        <!-- Show/hide fireworks button -->
+        <button id="toggleFireworks">Show/Hide Fireworks</button>
+
+        <!-- Fireworks image with ID -->
+        <img id="fireworksImg" src="fireworks.jpeg" alt="fireworks">
+
     </div>
 </body>
 </html>
