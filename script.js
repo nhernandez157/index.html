@@ -4,9 +4,20 @@ document.getElementById("factBtn").addEventListener("click", () => {
         "The Liberty Bell has been an iconic symbol of American independence since 1776!";
 });
 
-// Change background color
 document.getElementById("colorBtn").addEventListener("click", () => {
-    document.body.style.backgroundColor = "#ffe6e6"; // soft patriotic red
+    const body = document.body;
+    const heading = document.querySelector("h1");
+
+    // If background is red, switch back to blue
+    if (body.style.backgroundColor === "rgb(255, 230, 230)") {
+        body.style.backgroundColor = "#f0f8ff";   // original light blue
+        heading.style.color = "#b30000";          // original red
+    } 
+    else {
+        // Switch to red background + blue heading
+        body.style.backgroundColor = "#ffe6e6";   // soft red
+        heading.style.color = "#003366";          // deep blue
+    }
 });
 
 // Show/hide fireworks img
