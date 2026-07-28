@@ -1,7 +1,9 @@
+/* Global reset */
 * {
     box-sizing: border-box;
 }
 
+/* Body */
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f8ff;
@@ -11,15 +13,17 @@ body {
     line-height: 1.6;
 }
 
+/* Main container */
 .container {
     max-width: 1000px;
     margin: 0 auto;
-    background-color: white;
+    background: linear-gradient(180deg, #ffffff 0%, #fff5f5 100%);
     padding: 40px;
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
+/* Headings */
 h1 {
     color: #b30000;
     text-align: center;
@@ -37,6 +41,7 @@ h2, h3 {
     margin-top: 25px;
 }
 
+/* Year span */
 span {
     display: block;
     color: #b30000;
@@ -48,13 +53,24 @@ span {
     margin-bottom: 20px;
 }
 
+/* Images */
 img {
     max-width: 100%;
     height: auto;
     display: block;
-    margin: 20px auto;
+    margin: 30px auto;
 }
 
+/* Fireworks fade animation */
+#fireworksImg {
+    transition: opacity 0.4s ease;
+}
+
+#fireworksImg[style*="none"] {
+    opacity: 0;
+}
+
+/* Lists */
 ul {
     color: #000099;
     list-style-type: square;
@@ -74,6 +90,7 @@ li {
     margin-bottom: 8px;
 }
 
+/* Tables */
 table {
     width: 90%;
     margin: 20px auto;
@@ -92,10 +109,15 @@ th {
     color: #003366;
 }
 
+table tr:nth-child(even) {
+    background-color: #f2f7ff;
+}
+
 td {
     padding: 10px;
 }
 
+/* Links */
 a {
     color: #b30000;
     font-weight: bold;
@@ -119,6 +141,7 @@ a:active {
     color: #660000;
 }
 
+/* Card sections */
 .card {
     background-color: #f9f9f9;
     border: 1px solid #e0e0e0;
@@ -128,6 +151,7 @@ a:active {
     border-radius: 4px;
 }
 
+/* Buttons */
 button {
     background-color: #b30000;
     color: white;
@@ -149,6 +173,13 @@ button:focus {
     outline-offset: 2px;
 }
 
+/* Special styling for the toggle button */
+#toggleFireworks {
+    margin-top: 30px;
+    border: 2px solid #003366;
+}
+
+/* Media Queries */
 @media (max-width: 768px) {
     .container {
         padding: 20px;
@@ -185,7 +216,4 @@ button:focus {
     .container {
         padding: 15px;
     }
-}
-button {
-    margin: 10px 0;
 }
