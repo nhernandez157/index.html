@@ -170,21 +170,43 @@ button {
     background-color: #b30000;
     color: white;
     padding: 10px 20px;
-     border: 2px solid #003366;
+    border: 2px solid #003366;
     border-radius: 4px;
     cursor: pointer;
     font-weight: bold;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease, transform 0.08s ease;
     margin: 10px 0;
+    box-shadow: none; /* ensure consistent look */
 }
 
 button:hover {
     background-color: #8b0000;
 }
 
+button:active {
+    transform: translateY(1px);
+}
+
 button:focus {
     outline: 2px solid #003366;
     outline-offset: 2px;
+}
+
+/* Keep button styles consistent even when .alt-colors is present */
+.alt-colors button {
+    /* Re-assert the desired button appearance to avoid accidental inheritance */
+    background-color: #b30000 !important;
+    color: white !important;
+    border: 2px solid #003366 !important;
+    box-shadow: none !important;
+}
+
+.alt-colors button:hover {
+    background-color: #8b0000 !important;
+}
+
+.alt-colors button:focus {
+    outline: 2px solid #003366 !important;
 }
 
 /* Special styling for the toggle button */
