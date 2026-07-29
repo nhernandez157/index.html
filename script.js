@@ -16,7 +16,7 @@ document.getElementById("colorBtn").addEventListener("click", () => {
     else {
         // Switch to red background + blue heading
         body.style.backgroundColor = "#ffe6e6";   // soft red
-        heading.style.color = "#003366";          // deep blue
+        heading.style.color = "#0044cc";          // deep blue
     }
 });
 
