@@ -50,6 +50,7 @@ span {
     text-shadow: 2px 2px 4px #00000055;
     font-size: 1.8rem;
     font-weight: bold;
+    margin-bottom: 15px;
 }
 
 /* Images */
@@ -63,14 +64,14 @@ img {
 /* Updated top image */
 .container > img:first-of-type {
     border: 5px solid #bfbfbf;
-    border-radius: 10px;
+    border-radius: 5px;
     padding: 18px;
     background-color: #ffffff;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
     max-width: 100%;
     height: auto;
     display: block;
-    margin: 10px auto 30px;
+    margin: 8px auto 20px;
 }
 
 /* Fireworks animation */
