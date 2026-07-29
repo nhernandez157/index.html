@@ -65,7 +65,7 @@ img {
 .container > img:first-of-type {
     border: 5px solid #bfbfbf;
     border-radius: 13px;
-    padding: 18px;
+    padding: 20px;
     background-color: #ffffff;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
     max-width: 100%;
