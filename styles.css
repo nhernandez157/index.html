@@ -64,10 +64,8 @@ img {
 
 /* Styled frame for the top (first) image to improve blending with the theme */
 .container > img:first-of-type {
-    border: 6px solid #b30000; /* themed red accent */
+    border: 5px solid #000000;
     border-radius: 10px;
-    padding: 6px; /* small white gap between image and border */
-    background-color: #ffffff; /* makes the frame feel like a photo mat */
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
     max-width: 100%;
     height: auto;
