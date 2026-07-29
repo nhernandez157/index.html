@@ -12,11 +12,14 @@ document.getElementById("colorBtn").addEventListener("click", () => {
     if (body.style.backgroundColor === "rgb(255, 230, 230)") {
         body.style.backgroundColor = "#f0f8ff";   // original light blue
         heading.style.color = "#b30000";          // original red
+        span.styler.color = "#b30000";            // original red
+        
     } 
     else {
         // Switch to red background + blue heading
         body.style.backgroundColor = "#ffe6e6";   // soft red
         heading.style.color = "#000080";          // deep blue
+        span.styler.color = "#000080";            // deep blue
     }
 });
 
