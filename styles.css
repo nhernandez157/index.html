@@ -66,7 +66,7 @@ img {
 .container > img:first-of-type {
     border: 6px solid #bfbfbf;
     border-radius: 10px;
-    padding: 14px; /* small white gap between image and border */
+    padding: 16px; /* small white gap between image and border */
     background-color: #ffffff; /* makes the frame feel like a photo mat */
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
     max-width: 100%;
